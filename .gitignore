@@ -1,0 +1,22 @@
+# ROMs and arcade sets - never commit
+*.bin
+*.md.rom
+*.gen
+*.smd
+*.zip
+*.7z
+roms/
+# extracted / generated assets
+res/*.bin
+build/
+out/
+*.npy
+*.pkl
+*.png
+*.wav
+*.raw
+*.inp
+src/main.c
+src/sel.h
+src/selscr.h
+__pycache__/
