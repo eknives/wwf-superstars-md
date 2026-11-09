@@ -1,0 +1,5 @@
+# Wrestlers (C unless stated otherwise)
+Fields: +0 bit7 active; +1 movement mode (0/1 polar +0x1E, 2 cartesian +0x24/+0x26); +4 pose; +6 animation; +8 animation timer; +0xA bit7 orientation; +0xC/+0x10/+0x14 x/y/z; +0x18 flags; +0x19 outside the ring; +0x2A type (bit3 CPU, bits 0-1 human); +0x2B id/slot; +0x2C bit7 action initialised; +0x2D action; +0x30 movement; +0x36 step; +0x3C energy; +0x3E damage; +0x60 partner; +0x68 opponent (set by 0x246C); +0x6C/+0x6E input buffer; +0x9E/+0x9F ropes; +0xF0-FA daze.
+Actions (table 0x8CE2, dispatch 0x8C82): 00 8F08, 01 93EE, 02 960A, 03 CECC, 04 D400, 05 A90E, 06 1C180, 07 1C306, 08 99BE, 09 AA28, 0A AA9C, 0B AB1E, 0C F94C, 0D B0F2, 0E AAF2, 0F EBEE, 10 B1A0, 11 B1D0, 12 1C68C, 13 B1A8, 14 C628, 15 C09C, 16 1C60E, 17 BD10, 18 BF72, 19 C36A, 1A 1C906, 1B B838, 1C 1CC30, 1D E572, 1E B012, 1F C554, 20 E5F6. Their semantics are pending except for what the s66 notes record.
+- Damage: 0x16488. Energy: 0x1CE9C/0x1CEF4 with tables 0x7FEC/0x8190. Bars: 0x7CAE (P).
+- Input: 0x3F8C → 0x4066 (buffer +0x10C) → 0x4166 (action) (P).

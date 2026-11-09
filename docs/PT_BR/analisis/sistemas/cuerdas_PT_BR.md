@@ -1,0 +1,2 @@
+# Cordas
+Ver s66/NOTES.md e s66/cuerdas_casos.md (C): 0x22140, 0x21E5A, 0x21ED0, 0x22040 e 0x220C4, com os bits +0x9E/+0x9F.

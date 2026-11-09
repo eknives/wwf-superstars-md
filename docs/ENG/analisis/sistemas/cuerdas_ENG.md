@@ -1,0 +1,2 @@
+# Ropes
+See s66/NOTES.md and s66/cuerdas_casos.md (C): 0x22140, 0x21E5A, 0x21ED0, 0x22040 and 0x220C4, with the bits +0x9E/+0x9F.
