@@ -23,10 +23,10 @@ const ROMHeader rom_header = {
 #endif
     0xE0FF0000,
     0xE0FFFFFF,
-    "  ",
-    0x2020,
-    0x20202020,
-    0x20202020,   // s13: no save RAM
+    "RA",
+    0xF820,
+    0x00200000,
+    0x0020FFFF,
     "            ",
     "DEMONSTRATION PROGRAM                   ",
     "JUE             "

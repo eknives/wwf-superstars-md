@@ -1,22 +1,36 @@
-# ROMs and arcade sets - never commit
-*.bin
-*.md.rom
-*.gen
-*.smd
+# Nada con copyright: ROMs, recursos extraídos/convertidos, desensamblado, capturas
 *.zip
 *.7z
-roms/
-# extracted / generated assets
-res/*.bin
-build/
-out/
-*.npy
-*.pkl
-*.png
+*.rom
+*.gen
+*.smd
+*.md.rom
+*.bin
 *.wav
 *.raw
+*.vgm
+*.png
+*.gif
+*.jpg
+*.bmp
+*.mht
+*.dis
+*.npy
+*.pkl
 *.inp
-src/main.c
-src/sel.h
-src/selscr.h
+rdis.json
+dis.txt
+prog.bin
+roms/
+res/**
+!res/res.res
+!res/crowd_b49.h
+src/gen/*
+!src/gen/.gitkeep
+# compilación
+out/
+build/
+res/res.h
 __pycache__/
+*.pyc
+shots*/
